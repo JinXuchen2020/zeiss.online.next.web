@@ -1,0 +1,152 @@
+.search{
+    width: 400px;
+}
+
+.header{
+    background-color: #fff;
+    >div{
+        margin-bottom: 15px;
+    }
+}
+
+.select{
+    width: 100%;
+}
+
+.detail{
+    margin: 20px auto;
+    position: relative;
+
+    &-header{
+        justify-content: space-between;
+        display: flex;
+    }
+
+    &-title{
+        font-weight: bold;
+    }
+
+    &-share{
+        display: flex;
+
+        button{
+            margin: auto -15px auto 0px;
+        }
+    }
+
+    &-description{
+        margin: 10px auto;
+        font-weight: 400;
+
+        &-center{
+            text-align: center;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            bottom: -60px;
+        }
+    }
+
+    &-space{
+        margin: 5px 10px;
+
+        span{
+            font-weight: 600 !important;
+            color: #000;
+        }
+
+        >div{
+            margin-right: 10px;
+        }
+    }
+}
+
+.tag{
+    cursor: pointer;
+}
+
+.seperate{
+    background-color: #DFDFDF;
+    width: 1px;
+    height: 12px;
+    display: inline-block;
+}
+
+.cardRow{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-weight: 400;
+
+    .long{
+        width: 45%;
+    }
+
+    .short{
+        width: 10%;
+    }
+
+    .top{
+        top: 22px;
+    }
+
+    .item{
+        line-height: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .border{
+        border-bottom: 1px solid #f0f0f0;
+    }
+}
+
+.tagCard{
+    width: 100%;
+    position: absolute;
+    background-color: #fafafa;
+    padding: 15px 20px;
+    box-shadow: -5px 5px 5px -2px #dfdfdf,5px 5px 6px #dfdfdf;
+    z-index: 10;
+    text-align: left;
+
+    .tagCardItem{
+        max-height: 300px;
+        overflow-y: auto;
+        margin-right: -20px;
+        padding-right: 20px;
+    }
+
+    div{
+        //margin: auto;
+    }
+
+    .typeTag{
+        margin: 5px;
+    }
+
+    .typeTag:hover{
+        background-color: #efefef;
+        color: #000;
+    }
+
+    &button{
+        text-align: center;
+        margin-top: 15px !important;
+    }
+}
+
+.examBtn{
+    background-color: #008BD0;
+    color: #fff;
+}
+
+.examDiv{
+    text-align: right;
+}
+
+.typeTag{
+    background-color: #F6F6F6;
+    color: #7F7F7F;
+}
